@@ -1,25 +1,95 @@
 [
   {
-    "name": "Chicken Bowl",
-    "total_calories": 600,
-    "foods": [
-      { "name": "chicken", "ratio": 0.4 },
-      { "name": "rice", "ratio": 0.4 },
-      { "name": "olive_oil", "ratio": 0.2 }
-    ],
-    "notes": [
-      "Tastes better warm",
-      "Add hot sauce",
-      "Can use turkey instead"
+    "category": "Breakfast",
+    "recipes": [
+      {
+        "name": "Potato + Scrambled Eggs",
+        "total_calories": 440,
+        "foods": [
+          { "name": "potatoes", "ratio": 0.4545 },
+          { "name": "scrambled_eggs", "ratio": 0.3182 },
+          { "name": "asparagus", "ratio": 0.1705 },
+          { "name": "tomatoes", "ratio": 0.0568 }
+        ],
+        "notes": [
+          "Includes fruit cup",
+          "Ketchup + Mayo: 75 cal"
+        ]
+      },
+      {
+        "name": "Quinoa + Hard Boiled Eggs",
+        "total_calories": 140,
+        "foods": [
+          { "name": "eggs", "ratio": 1.0 }
+        ],
+        "notes": [
+          "Soft boiled for Nick",
+          "Hard boiled for Allie and Nora"
+        ]
+      },
+      {
+        "name": "Overnight Oats",
+        "total_calories": 650,
+        "foods": [
+          { "name": "greek_yogurt", "ratio": 0.1154 },
+          { "name": "full_fat_yogurt", "ratio": 0.1154 },
+          { "name": "rolled_oats", "ratio": 0.5 },
+          { "name": "chia_seeds", "ratio": 0.0769 },
+          { "name": "milk", "ratio": 0.0231 },
+          { "name": "vanilla_extract", "ratio": 0.0462 },
+          { "name": "catalina_crunch", "ratio": 0.1154 }
+        ],
+        "notes": [
+          "Pinch of salt and cinnamon"
+        ]
+      },
+      {
+        "name": "Breakfast Smoothie",
+        "total_calories": 550,
+        "foods": [
+          { "name": "greek_yogurt", "ratio": 0.1636 },
+          { "name": "yogurt", "ratio": 0.3091 },
+          { "name": "banana", "ratio": 0.3636 },
+          { "name": "vanilla_extract", "ratio": 0.0636 },
+          { "name": "chia_seeds", "ratio": 0.0909 }
+        ],
+        "notes": [
+          "Pinch of salt",
+          "2 servings = 1000 cal"
+        ]
+      }
     ]
   },
   {
-    "name": "Pita and Hummus",
-    "total_calories": 400,
-    "foods": [
-      { "name": "pita_bread", "ratio": 0.6 },
-      { "name": "hummus", "ratio": 0.4 }
-    ],
-    "notes": []
+    "category": "Snacks",
+    "recipes": [
+      {
+        "name": "Chicken + Rice Snack Bowl",
+        "total_calories": 250,
+        "foods": [
+          { "name": "chicken", "ratio": 0.36 },
+          { "name": "rice", "ratio": 0.32 },
+          { "name": "veggies", "ratio": 0.32 }
+        ],
+        "notes": []
+      },
+      {
+        "name": "Cucumber Salad + Rice",
+        "total_calories": 250,
+        "foods": [
+          { "name": "cucumber", "ratio": 0.32 },
+          { "name": "sugar", "ratio": 0.16 },
+          { "name": "garlic", "ratio": 0.04 },
+          { "name": "soy", "ratio": 0.04 },
+          { "name": "sesame_oil", "ratio": 0.48 },
+          { "name": "chili_oil", "ratio": 0.2 },
+          { "name": "sesame_seeds", "ratio": 0.2 }
+        ],
+        "notes": [
+          "Makes 4 servings",
+          "Add ginger and salt to taste"
+        ]
+      }
+    ]
   }
 ]
