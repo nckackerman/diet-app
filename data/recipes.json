@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Chicken Bowl",
+    "total_calories": 600,
+    "foods": [
+      { "name": "chicken", "ratio": 0.4 },
+      { "name": "rice", "ratio": 0.4 },
+      { "name": "olive_oil", "ratio": 0.2 }
+    ],
+    "notes": [
+      "Tastes better warm",
+      "Add hot sauce",
+      "Can use turkey instead"
+    ]
+  },
+  {
+    "name": "Pita and Hummus",
+    "total_calories": 400,
+    "foods": [
+      { "name": "pita_bread", "ratio": 0.6 },
+      { "name": "hummus", "ratio": 0.4 }
+    ],
+    "notes": []
+  }
+]

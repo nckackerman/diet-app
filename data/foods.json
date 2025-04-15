@@ -1,0 +1,7 @@
+{
+  "chicken": { "category": "protein", "cal_per_gram": 1.65 },
+  "rice": { "category": "carbs", "cal_per_gram": 1.3 },
+  "olive_oil": { "category": "fats", "cal_per_gram": 8.8 },
+  "pita_bread": { "category": "carbs", "cal_per_gram": 2.75 },
+  "hummus": { "category": "fats", "cal_per_gram": 2.5 }
+}

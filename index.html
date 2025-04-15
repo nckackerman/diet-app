@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Diet App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <button onclick="showTab('planner')">Planner</button>
+    <button onclick="showTab('recipes')">Recipes</button>
+    <button onclick="showTab('foodLookup')">Foods</button>
+  </nav>
+
+  <section id="plannerTab">
+    <h1>Meal Planner</h1>
+
+    <!-- Food Search Bar -->
+    <label for="foodSearchPlanner">Search for food:</label>
+    <input type="text" id="foodSearchPlanner" placeholder="Search foods..." autocomplete="off" />
+    <ul id="plannerSearchResults" class="search-results"></ul>
+
+    <form id="plannerForm">
+      <div id="foodInputs"></div>
+      <label>Total Calories: <input value="500" type="number" id="totalCalories" required /></label>
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="plannerResults"></div>
+  </section>
+
+  <section id="foodLookupTab" style="display: none;">
+    <h1>Food Lookup</h1>
+    <input type="text" id="foodSearchLookup" placeholder="Search foods..." />
+    <div id="foodListContainer"></div>
+  </section>
+
+  <section id="recipesTab" style="display: none;">
+    <h1>Recipes</h1>
+    <input type="text" id="recipeSearch" placeholder="Search recipes..." />
+    <div id="recipeListContainer"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
