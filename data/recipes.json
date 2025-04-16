@@ -3,13 +3,14 @@
     "category": "Breakfast",
     "recipes": [
       {
+        "servings": 1,
         "name": "Potato + Scrambled Eggs",
-        "total_calories": 440,
         "foods": [
-          { "name": "potatoes", "ratio": 0.4545 },
-          { "name": "scrambled_eggs", "ratio": 0.3182 },
-          { "name": "asparagus", "ratio": 0.1705 },
-          { "name": "tomatoes", "ratio": 0.0568 }
+          { "name": "potatoes", "calories": 160 },
+          { "name": "olive oil", "calories": 40 },
+          { "name": "scrambeled eggs", "calories": 140 },
+          { "name": "asparagus", "calories": 75 },
+          { "name": "tomatoes", "calories": 25 }
         ],
         "notes": [
           "Includes fruit cup",
@@ -17,45 +18,58 @@
         ]
       },
       {
+        "servings": 1,
         "name": "Quinoa + Hard Boiled Eggs",
-        "total_calories": 140,
         "foods": [
-          { "name": "eggs", "ratio": 1.0 }
+          { "name": "over easy eggs", "calories": 140 },
+          { "name": "quinoa quarter cup", "calories": 200 },
+          { "name": "broccoli", "calories": 75 },
+          { "name": "tomatoes", "calories": 25 }
         ],
-        "notes": [
-          "Soft boiled for Nick",
-          "Hard boiled for Allie and Nora"
-        ]
+        "notes": []
       },
       {
+        "servings": 2,
         "name": "Overnight Oats",
-        "total_calories": 650,
         "foods": [
-          { "name": "greek_yogurt", "ratio": 0.1154 },
-          { "name": "full_fat_yogurt", "ratio": 0.1154 },
-          { "name": "rolled_oats", "ratio": 0.5 },
-          { "name": "chia_seeds", "ratio": 0.0769 },
-          { "name": "milk", "ratio": 0.0231 },
-          { "name": "vanilla_extract", "ratio": 0.0462 },
-          { "name": "catalina_crunch", "ratio": 0.1154 }
+          { "name": "greek yogurt", "calories": 75 },
+          { "name": "full fat yogurt", "calories": 75 },
+          { "name": "rolled oats", "calories": 325 },
+          { "name": "chia seeds", "calories": 50 },
+          { "name": "milk 2%", "calories": 15 },
+          { "name": "vanilla extract", "calories": 30 },
+          { "name": "catalina crunch", "calories": 75 }
         ],
         "notes": [
           "Pinch of salt and cinnamon"
         ]
       },
       {
-        "name": "Breakfast Smoothie",
-        "total_calories": 550,
+        "servings": 2,
+        "name": "Breakfast Smoothie Base",
         "foods": [
-          { "name": "greek_yogurt", "ratio": 0.1636 },
-          { "name": "yogurt", "ratio": 0.3091 },
-          { "name": "banana", "ratio": 0.3636 },
-          { "name": "vanilla_extract", "ratio": 0.0636 },
-          { "name": "chia_seeds", "ratio": 0.0909 }
+          { "name": "greek yogurt", "calories": 90 },
+          { "name": "full fat yogurt", "calories": 170 },
+          { "name": "banana", "calories": 200 },
+          { "name": "vanilla extract", "calories": 35 },
+          { "name": "chia seeds", "calories": 50 }
         ],
         "notes": [
           "Pinch of salt",
-          "2 servings = 1000 cal"
+          "add remaining calories from another smoothie option"
+        ]
+      },
+      {
+        "servings": 2,
+        "name": "Breakfast Smoothie Tropical",
+        "foods": [
+          { "name": "mandarin orange - no liquid", "calories": 100 },
+          { "name": "pineapple", "calories": 200 },
+          { "name": "apple honey crisp", "calories": 200 },
+          { "name": "honey", "calories": 150 }
+        ],
+        "notes": [
+          "No liquids from canned oranges"
         ]
       }
     ]
@@ -64,29 +78,29 @@
     "category": "Snacks",
     "recipes": [
       {
+        "servings": 1,
         "name": "Chicken + Rice Snack Bowl",
-        "total_calories": 250,
         "foods": [
-          { "name": "chicken", "ratio": 0.36 },
-          { "name": "rice", "ratio": 0.32 },
-          { "name": "veggies", "ratio": 0.32 }
-        ],
-        "notes": []
-      },
-      {
-        "name": "Cucumber Salad + Rice",
-        "total_calories": 250,
-        "foods": [
-          { "name": "cucumber", "ratio": 0.32 },
-          { "name": "sugar", "ratio": 0.16 },
-          { "name": "garlic", "ratio": 0.04 },
-          { "name": "soy", "ratio": 0.04 },
-          { "name": "sesame_oil", "ratio": 0.48 },
-          { "name": "chili_oil", "ratio": 0.2 },
-          { "name": "sesame_seeds", "ratio": 0.2 }
+          { "name": "chicken thighs", "calories": 90 },
+          { "name": "rice quarter cup", "calories": 80 }
         ],
         "notes": [
-          "Makes 4 servings",
+          "Get another 80 cals from any veggies"
+        ]
+      },
+      {
+        "servings": 4,
+        "name": "Cucumber Salad + Rice",
+        "foods": [
+          { "name": "cucumber", "calories": 80 },
+          { "name": "sugar", "calories": 40 },
+          { "name": "soy sauce", "calories": 10 },
+          { "name": "rice vinegar", "calories": 3.5 },
+          { "name": "sesame oil", "calories": 120 },
+          { "name": "chili oil", "calories": 50 },
+          { "name": "sesame seeds", "calories": 50 }
+        ],
+        "notes": [
           "Add ginger and salt to taste"
         ]
       }
