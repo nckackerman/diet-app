@@ -1,22 +1,61 @@
-# diet-app
-A mobile-friendly web app for simple meal planning and calorie tracking.
-Built with HTML, CSS, and JavaScript — built primarily with ChatGPT.
+# Diet App
+
+A web application for managing recipes and meal planning with calorie tracking.
 
 ## Features
-1. Meal Calculator:
-Input a list of foods, their target ratios, and a desired total calorie count to get the exact grams needed for each food.
 
-2. Recipes & Notes:
-Store and browse your favorite recipes along with personal notes.
+- Recipe management with categories
+- Calorie scaling for meal planning
+- Custom notes for recipes
+- Recipe sorting and filtering
+- Print and copy functionality
+- Responsive design
 
-3. Food Lookup:
-Quickly check the calorie content of common foods.
+## Setup
 
-4. Searchable Data:
-Easily search through meals, recipes, and food entries.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Data Store:
-All data is stored in simple JSON files for easy editing and portability.
+2. Build the application:
+   ```bash
+   npm run build
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## Development
+
+To watch for changes and automatically rebuild:
+   ```bash
+   npm run watch
+   ```
+
+## Project Structure
+
+- `FoodService`: Manages food data and nutritional information
+- `RecipeService`: Handles recipe data and operations
+- `RecipeList`: Main UI component for displaying recipes
+- Various utility modules for caching, validation, and logging
+
+## Data Files
+
+The application uses two main JSON files:
+
+- `data/foods.json`: Contains food items with nutritional information
+- `data/recipes.json`: Contains recipe definitions
+
+## Browser Support
+
+The application requires a modern browser with support for:
+- ES Modules
+- Fetch API
+- Local Storage
+- Clipboard API
 
 # Can i use this code?
 Yes! please reach out on github for any questions/concerns.

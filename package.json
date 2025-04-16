@@ -1,0 +1,26 @@
+{
+  "name": "diet-app",
+  "version": "1.0.0",
+  "description": "A diet and recipe management application",
+  "type": "module",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "start": "http-server dist -p 3000 -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-terser": "^0.4.4",
+    "http-server": "^14.1.1",
+    "rollup": "^4.9.6",
+    "rollup-plugin-copy": "^3.5.0",
+    "serve": "^14.2.1"
+  }
+}
