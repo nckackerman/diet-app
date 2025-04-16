@@ -390,7 +390,11 @@ export class FoodCalculator {
         });
         
         li.innerHTML = `
-          <span>${item.name}: ${item.grams}g (${item.calories} cal)</span>
+          <span>
+            <span class="food-name">${item.name}:</span>
+            <span class="food-grams">${item.grams}g</span>
+            <span class="food-calories">(${item.calories} cal)</span>
+          </span>
           <div class="ratio-control">
             <label>Ratio:</label>
           </div>
