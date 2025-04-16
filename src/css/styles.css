@@ -539,6 +539,21 @@ header {
   color: #000;
 }
 
+.food-name {
+  flex: 1;
+}
+
+.food-grams {
+  font-weight: bold;
+  color: #000;
+  margin: 0 8px;
+}
+
+.food-calories {
+  color: #6c757d;
+  font-size: 0.9em;
+}
+
 .food-item:last-child {
   border-bottom: 1px solid #dee2e6;
 }

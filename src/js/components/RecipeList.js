@@ -89,7 +89,11 @@ export class RecipeList {
             const roundedGrams = Math.round(exactGrams / 5) * 5;
             const foodItem = document.createElement('div');
             foodItem.className = 'food-item';
-            foodItem.textContent = `${item.name}: ${roundedGrams}g (${currentCalories.toFixed(0)} cal)`;
+            foodItem.innerHTML = `
+              <span class="food-name">${item.name}:</span>
+              <span class="food-grams">${roundedGrams}g</span>
+              <span class="food-calories">(${currentCalories.toFixed(0)} cal)</span>
+            `;
             foodList.appendChild(foodItem);
           });
         });
