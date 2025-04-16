@@ -540,6 +540,7 @@ header {
 
 .food-name {
   margin-right: 4px;
+  font-weight: bold;
 }
 
 .food-grams {
@@ -792,10 +793,30 @@ header {
 
 .result-category li {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 8px 0;
   border-bottom: 1px solid #dee2e6;
+}
+
+.result-category li span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.result-category li .food-grams {
+  font-weight: bold;
+  color: #000;
+}
+
+.result-category li .food-calories {
+  color: #6c757d;
+  font-size: 0.9em;
+}
+
+.result-category li .food-name {
+  font-weight: bold;
+  color: #000;
 }
 
 .ratio-control {
